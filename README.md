@@ -33,6 +33,14 @@ In a NiFi flow, I:
 - Published filtered data to a new Kafka topic named `alerts`.
 - Saved all processed data to HDFS in CSV format.
 
+## Screenshots
+
+### NiFi Flow: IoT Data Processing Pipeline
+![NiFi IoT Data Pipeline](nifi_pipeline2.png)
+
+### NiFi Flow: HDFS Data Transformation
+![NiFi HDFS Processing Pipeline](nifi_pipeline1.png)
+
 ### 3. **HDFS (Hadoop Distributed File System)**
 HDFS has been a primary storage layer for my big data projects. I have used it to:
 
@@ -40,10 +48,7 @@ HDFS has been a primary storage layer for my big data projects. I have used it t
 - Optimize data formats using Parquet for better performance.
 - Retrieve data programmatically through Spark and NiFi.
 
-### 4. **Hadoop Ecosystem**
-As a part of the Hadoop ecosystem, I have used tools like HDFS and MapReduce (via Spark) to manage distributed storage and computation. My hands-on experience includes setting up local clusters for testing and managing workflows using YARN.
-
-### 5. **Apache Kafka**
+### 4. **Apache Kafka**
 Apache Kafka has been a central component in my projects involving real-time data streams. I have:
 
 - Configured producers to publish JSON messages to Kafka topics.
@@ -53,14 +58,7 @@ Apache Kafka has been a central component in my projects involving real-time dat
 **Example Workflow**:
 A Kafka producer published IoT data (device measurements, timestamps) to a topic. Using NiFi, I subscribed to this topic, filtered messages based on thresholds, and republished alerts to another Kafka topic while saving all data to HDFS for batch processing.
 
-## Screenshots
-
-### NiFi Flow: IoT Data Processing Pipeline
-![NiFi IoT Data Pipeline](nifi_pipeline2.png)
-
-### NiFi Flow: HDFS Data Transformation
-![NiFi HDFS Processing Pipeline](nifi_pipeline1.png)
-
+---
 
 ## Key Skills Gained
 - Distributed data processing with Spark.
