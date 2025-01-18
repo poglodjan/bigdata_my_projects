@@ -36,10 +36,10 @@ In a NiFi flow, I:
 ## Screenshots
 
 ### NiFi Flow: IoT Data Processing Pipeline
-![NiFi IoT Data Pipeline](nifi_pipeline2.png)
+![NiFi IoT Data Pipeline](nifi_flows/nifi_pipeline2.png)
 
 ### NiFi Flow: HDFS Data Transformation
-![NiFi HDFS Processing Pipeline](nifi_pipeline1.png)
+![NiFi HDFS Processing Pipeline](nifi_flows.nifi_pipeline1.png)
 
 ### 3. **HDFS (Hadoop Distributed File System)**
 HDFS has been a primary storage layer for my big data projects. I have used it to:
